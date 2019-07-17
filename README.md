@@ -1,5 +1,5 @@
 # UbuntuServerDotnet
-
+> LuanDNH
 ## This shell is used for install dotnet core on server ubuntu and install sqlmap and nmap
 
 1. Register Microsoft key and feed
