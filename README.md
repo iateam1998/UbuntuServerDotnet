@@ -25,3 +25,14 @@
     sudo apt-get update
     sudo apt-get install sqlmap -y
     ```    
+5. Publish project OnkeiSolution
+    ```
+    cd OnkeiSolution/
+    mkdir PublishSolution
+    dotnet publish OnkeiSolution/OnkeiSolution.csproj --framework netcoreapp2.2 --output PublishSolution/
+    ```
+6. Run project OnkeiSolution
+    ```
+    cd PublishSolution
+    dotnet /OnkeiSolution.dll
+    ```
