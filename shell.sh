@@ -18,3 +18,13 @@ sudo apt-get install nmap -y
 sudo apt-get install python2.7 -y
 sudo apt-get update
 sudo apt-get install sqlmap -y
+
+
+#Publish project OnkeiSolution
+cd OnkeiSolution/
+mkdir PublishSolution
+dotnet publish OnkeiSolution/OnkeiSolution.csproj --framework netcoreapp2.2 --output PublishSolution/
+
+#Run project OnkeiSolution
+cd PublishSolution
+dotnet /OnkeiSolution.dll
